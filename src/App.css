@@ -1,0 +1,63 @@
+
+/* Added styles for lists and smaller buttons */
+.btn-secondary {
+  background: var(--panel-bg);
+  color: var(--text-main);
+  border: 1px solid var(--panel-border);
+  padding: 0.6rem 1rem;
+  border-radius: 6px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  align-self: flex-start;
+}
+.btn-secondary:hover {
+  background: rgba(255,255,255,0.05);
+  border-color: var(--primary);
+}
+
+.source-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  list-style: none;
+}
+.source-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: rgba(0,0,0,0.3);
+  padding: 0.75rem 1rem;
+  border-radius: 8px;
+  border: 1px solid var(--panel-border);
+  animation: fadeIn 0.3s ease-out;
+}
+.badge {
+  font-size: 0.7rem;
+  font-weight: 700;
+  padding: 0.2rem 0.5rem;
+  border-radius: 4px;
+  letter-spacing: 0.05em;
+}
+.badge-primary {
+  background: rgba(79, 70, 229, 0.2);
+  color: #818cf8;
+  border: 1px solid rgba(79, 70, 229, 0.4);
+}
+.source-data-preview {
+  font-size: 0.9rem;
+  color: var(--text-main);
+  word-break: break-all;
+}
+.btn-remove {
+  background: transparent;
+  border: none;
+  color: var(--danger);
+  cursor: pointer;
+  font-size: 0.85rem;
+  font-weight: 600;
+  padding: 0.2rem;
+}
+.btn-remove:hover {
+  text-decoration: underline;
+}
