@@ -386,3 +386,39 @@ textarea.input-field {
 .btn-remove:hover {
   text-decoration: underline;
 }
+
+/* Footer Element */
+.app-footer {
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  border-top: 1px solid var(--panel-border);
+  background: rgba(26, 26, 36, 0.5);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  z-index: 10;
+}
+
+.footer-content p {
+  margin: 0 0 0.5rem 0;
+  color: var(--text-main);
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.footer-links a {
+  color: var(--accent-light);
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+  color: #fff;
+}

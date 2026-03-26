@@ -55,6 +55,18 @@ function App() {
       ) : (
         <SetupScreen onComplete={handleStartChat} />
       )}
+
+      <footer className="app-footer">
+        <div className="footer-content">
+          <p><strong>권혁용 연구위원</strong> (AI선거전략연구소)</p>
+          <div className="footer-links">
+            <a href="mailto:hukyoung84@naver.com">이메일(hukyoung84@naver.com)</a> | 
+            <a href="https://www.youtube.com/@KwonT_AI" target="_blank" rel="noopener noreferrer">유튜브</a> | 
+            <a href="https://litt.ly/levelupai" target="_blank" rel="noopener noreferrer">홈페이지</a> | 
+            <a href="https://win-ai.kr/" target="_blank" rel="noopener noreferrer">AI선거전략연구소</a>
+          </div>
+        </div>
+      </footer>
     </div>
   );
 }
